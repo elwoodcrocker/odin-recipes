@@ -4,7 +4,7 @@ The page will consist of the following features:
 
 HTML Boilerplate
 Image source
- headings
+Headings
 Body
 Lists and 
 Divs
