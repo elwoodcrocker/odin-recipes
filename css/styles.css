@@ -1,18 +1,24 @@
 body{
    color:black;
    font-family: Arial, Helvetica, sans-serif;
-   background-color: rgb(177, 111, 30);
-   margin:0;
-   box-sizing: ;
+   margin: 0;
+   display: block;
+   background-color: #5d1010;
+   text-align: center;
    
 }
 
 .recipe-card{
-    border: 20px inset wheat;
+    border: 20px inset rgb(71, 29, 29);
+    display:inline-block;
+    background-color: tan;
+    padding:10px;
+    max-width: 800px;
 }
 
 .recipe-intro{
     display: inline-block;
+
     }
 
 .nav-bar{
@@ -24,7 +30,8 @@ body{
 .nav-bar ul{
     display: block;
     padding:0;
-    border: 10px inset wheat;
+    border: 10px solid rgb(71, 29, 29);
+    border-radius:10%;
     overflow: hidden;
 }
 
@@ -32,36 +39,68 @@ body{
     display: inline-block;
     text-align: center;
     margin: 0 50px;
-    font-weight: bold;
-    border: 10px inset wheat;
-    background-color: antiquewhite;
-    font-weight: bold;
+    font-weight: bolder;
+    border: 10px inset rgb(71, 29, 29);
+    border-radius:10%;
+    background-color: tan;
+    padding: 0 20px;
+
 
 }
 
 .recipe-header{
     display: block;
     text-align: Center;
-    border: 5px inset wheat;
+    border: 5px inset rgb(71, 29, 29);
+    border-radius:10%;
     overflow: hidden;
+    margin: 20px 0;
+}
+
+.recipe-img {
+    text-align: center;
+
 }
 
 .recipe-img img{
-    display: inline-block;
-    max-width: 90%;
+    display: block;
+    max-width: 100%;
     max-height:100%;
-    padding: 20px;
+    margin:20px auto;
+    border-radius:10%;
     overflow: hidden;
+}
 
-.recipe-discription{
+.recipe-description {
+    text-align: left;
+}
+
+.recipe-description h2 {
+    text-align: center;
+    border: 5px inset rgb(71, 29, 29);
+    border-radius:10%;
 
 }
 
+.recipe {
+    display: block;
+}
+
+.recipe h2 {
+    text-align: center;
+    border: 5px inset rgb(71, 29, 29);
+}
 
 .recipe-ingredients{
-
+    display: block;
+    margin: 0 20px 0 0;
+    padding: 10px;
+    text-align: left;
 }
 
 .recipe-steps{
-
+    display: block;
+    vertical-align:top;
+    padding: 10px;
+    text-align: left;
 }
