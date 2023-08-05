@@ -1,30 +1,67 @@
- *{
-    color:black;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: bisque;
+body{
+   color:black;
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: rgb(177, 111, 30);
+   margin:0;
+   box-sizing: ;
+   
 }
 
-img {
+.recipe-card{
+    border: 20px inset wheat;
+}
+
+.recipe-intro{
+    display: inline-block;
+    }
+
+.nav-bar{
     display: block;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 100%;
-}
-
-body {
-    max-width: 75%;
-    background-color: brown;
-}
-
-h1, h2, h3, h4 {
     text-align: center;
-    border:10px;
-    border-color: black;
+
 }
 
-.links {
-    text-align: right;
-    list-style-type:none;
-    list-style-position: inside;
-    
+.nav-bar ul{
+    display: block;
+    padding:0;
+    border: 10px inset wheat;
+    overflow: hidden;
+}
+
+.nav-bar ul li {
+    display: inline-block;
+    text-align: center;
+    margin: 0 50px;
+    font-weight: bold;
+    border: 10px inset wheat;
+    background-color: antiquewhite;
+    font-weight: bold;
+
+}
+
+.recipe-header{
+    display: block;
+    text-align: Center;
+    border: 5px inset wheat;
+    overflow: hidden;
+}
+
+.recipe-img img{
+    display: inline-block;
+    max-width: 90%;
+    max-height:100%;
+    padding: 20px;
+    overflow: hidden;
+
+.recipe-discription{
+
+}
+
+
+.recipe-ingredients{
+
+}
+
+.recipe-steps{
+
 }
